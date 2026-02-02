@@ -8,8 +8,9 @@ class Teacher:
         print(self.salary)
         print(self.sub)
     def greet(self):
-        print("ok thanking to you mam.....\n")
+        print("ok thanking to you mam.....\n",self.name)
 t1=Teacher("j",98000,"PAI")
 t1.display()
 t1.greet()
+
 
